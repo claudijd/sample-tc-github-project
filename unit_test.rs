@@ -2,7 +2,7 @@
 // Conditionally compile `main` only when the test-suite is *not* being run.
 #[cfg(not(test))]
 fn main() {
-    println!("If you see this, the tests were not compiled nor ran!");
+    println!("If ****TEST**** you see this, the tests were not compiled nor ran!");
 }
 
 // Conditionally compile the module `test` only when the test-suite is run.
